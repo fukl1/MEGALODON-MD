@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    CHATBOT: getConfig("CHATBOT") || "on",
+    CHATBOT: getConfig("CHATBOT") || "off",
     //chatbot on/off
   
     SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~jwxW0K4T#EB7VjBSLpn_l3u4ntBBdR8fVxuXP2yu5-OFmHmGx-zc",  // Your bot's session ID (keep it secure)
